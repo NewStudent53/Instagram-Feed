@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram-Feed</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav class="navbar fixed-top">
+            <span class="fab fa-instagram"></i> Instagram</span>
+                <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success" 
+                type="button">Create a new Post</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Accesibility</a>
+                        <a class="dropdown-item" href="#">Privacy and Data</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown" href="#">Log out</a>
+                    </div>
+                </div>
+        </nav>
+        <nav aria-label="Visual" class="limits">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link text-secondary" href="index.html">
+                    <i class="fas fa-th"></i></a>
+                </li>
+                <li class="page-item"><a class="page-link text-secondary" href="pfeed.html">■</a></li>
+            </ul>
+        </nav>
+        <div class="container(1)">
+            <div class="row">
+                <div class="col px-0 ml-1">
+                    <img src="https://images.nightcafe.studio/jobs/RstsatQgQNfR4pz2Veaa/RstsatQgQNfR4pz2Veaa_15.5039x.jpg?tr=w-1600,c-at_max" width="99%" height="100%">
+                </div>
+                <div class="col px-0">
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0dabb3e7-fddd-4767-961e-0afea2143eac/dfavl35-28e2974e-73fd-4ed9-a308-9b768b400d96.jpg/v1/fill/w_1175,h_680,q_70,strp/ai_generated_artwork__cyberpunk_city__2___by_eoin127_dfavl35-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzA0IiwicGF0aCI6IlwvZlwvMGRhYmIzZTctZmRkZC00NzY3LTk2MWUtMGFmZWEyMTQzZWFjXC9kZmF2bDM1LTI4ZTI5NzRlLTczZmQtNGVkOS1hMzA4LTliNzY4YjQwMGQ5Ni5qcGciLCJ3aWR0aCI6Ijw9MTIxNiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IqMBcJe9MYBtbkyNG09aEsOM4OohZvdq6jiTgkGvCJo" width="99%" height="100%">
+                </div>
+                <div class="col px-0">
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0dabb3e7-fddd-4767-961e-0afea2143eac/dfavlcp-42a88c3f-88f9-4826-9488-ab3443fb02a6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkYWJiM2U3LWZkZGQtNDc2Ny05NjFlLTBhZmVhMjE0M2VhY1wvZGZhdmxjcC00MmE4OGMzZi04OGY5LTQ4MjYtOTQ4OC1hYjM0NDNmYjAyYTYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dYSxoAyjqwOrXZnSji96WV--TEzDd5cGQXXAmqdoJHw" width="99%" height="100%">
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <div class="container(2)">
+            <div class="row">
+                <div class="col px-0 ml-1">
+                    <img src="https://cdn.cnn.com/cnnnext/dam/assets/220905135137-01-manas-bhatia-future-cities-ai-full-169.jpg" width="99%" height="58%">
+                </div>
+                <div class="col px-0">
+                    <img src="https://images.nightcafe.studio/jobs/MAK1QmJKoKUeb159KLPn/MAK1QmJKoKUeb159KLPn_2x.jpg?tr=w-1600,c-at_max" width="99%" height="58%">
+                </div>
+                <div class="col px-0">
+                    <img src="https://images.saymedia-content.com/.image/t_share/MTkwODkzODUwNDE4OTQ3NjY5/everything-you-wanted-to-know-about-dall-e-2-the-amazing-ai-artist.jpg" width="99%" height="58%">
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="exampleModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="Caption">Caption:</div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
