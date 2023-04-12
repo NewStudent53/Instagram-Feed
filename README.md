@@ -2,6 +2,7 @@
 Later move to gitpod in order for it to be reviewed by 4G's staff
 
 Instagram Feed (mock-up) using html, css and bootstrap
+
 ****Additional information and data that was used
 =>https://getbootstrap.com/
 =>https://getbootstrap.com/docs/4.0/components/dropdowns/
