@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram-Feed</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar fixed-top">
+        <span class="fab fa-instagram"></i> Instagram</span>
+            <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success" 
+            type="button">Create a new Post</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-cog"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="#">Accesibility</a>
+                    <a class="dropdown-item" href="#">Privacy and Data</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown" href="#">Log out</a>
+                </div>
+            </div>
+    </nav>
+    <nav aria-label="Visual" class="Up-limiter">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link text-secondary" href="index.html">
+                <i class="fas fa-th"></i></a>
+            </li>
+            <li class="page-item"><a class="page-link text-secondary" href="pfeed.html">■</a></li>
+        </ul>
+    </nav>
+        <div class="card">
+            <div class="card-header">
+                <h4 class="titulo">A cute seagull says hi</h4>
+                <button type="button" class="btn btn-link">March 03, 2018</button>
+            </div>
+            <img src="https://i.guim.co.uk/img/media/6ba30e96faa15f1aa2662f0da1974b233b2fce84/109_390_1831_1099/master/1831.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=15d51b434c4fdee5abb7ab57a3574f47" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">12.1K Likes</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="far fa-heart"></i>
+                </button>
+                <input type="text" class="form-control comments" id="recipient-name" value="Share your thoughts...">
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h4 class="titulo">Meeting up with some friends</h4>
+                <button type="button" class="btn btn-link">December 31, 2017</button>
+            </div>
+            <img src="https://thumbnails.production.thenounproject.com/SD1ws4U7BL7qWfogRK240xR774s=/fit-in/1000x1000/photos.production.thenounproject.com/photos/19616C36-C9E1-4C6E-AB99-2FDE294FCB76.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">4.9k Likes</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="far fa-heart"></i>
+                </button>
+                <input type="text" class="form-control comments" id="recipient-name" value="Share your thoughts...">
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+                <div class="card-header">
+                    <h4 class="titulo">Michael being a dumb-o</h4>
+                    <button type="button" class="btn btn-link"></button>
+                </div>
+                <img src="https://imgb.srgcdn.com/gsTWIIahbod8oz88J8te.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">1.9M Likes</h5>
+                    <p class="card-text">JR JBA'G ZRRG RIRE NTNVA, SBE JURA GUR FRNTHYYF PEVRQ, AB BAR JNF YRSG NYVIR</p>
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <input type="text" class="form-control comments" id="recipient-name" value="POF° UXFOUZ-TJY′ UXFOUZ″ O, POF-IVOESFE-GPSUZ° UISFF′ UISFF″ F">
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="modal" id="exampleModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="Caption">Caption:</div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-light btn-sm">
+                                <i class="fas fa-camera"></i>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">Publish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  </body>
+</html>

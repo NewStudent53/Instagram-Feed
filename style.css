@@ -1,0 +1,24 @@
+.btn-light{
+    background-color: #ffffff;
+    color: #000000;
+}
+.navbar{
+    border-bottom: 1px solid lightgray;
+}
+.Up-limiter{
+    margin-top: 70px;
+}
+.card{
+    margin: 40px auto;
+    width: 600px;
+}
+.btn-link{
+    float: right;
+    color: gray;
+    padding-right: 0px;
+}
+.comments{
+    color: gray;
+    display: inline-block;
+    width: 88%;
+}
